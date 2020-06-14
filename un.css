@@ -1,0 +1,117 @@
+.wrapper .icons .fa-facebook-square:hover
+{
+  color: rgb(38, 104, 247);
+  transition: 0.5s;
+}
+.wrapper .icons .fa-whatsapp:hover
+{
+  color:  #4AC959;
+  transition: 0.5s;
+}
+.wrapper .icons .fa-instagram:hover
+{
+  color: #E1306C;
+  transition: 0.5s;
+}
+
+.wrapper .icons .fa-snapchat-square:hover
+{
+  color: #FFFC00;
+  transition: 0.5s;
+}
+.wrapper .icons .fa-youtube-play:hover
+{
+  color: #FF0000;
+  transition: 0.5s;
+}
+.wrapper .icons .fa-github-square:hover
+{
+  color: #24292e;
+  transition: 0.5s;
+}
+.wrapper .icons .fa-steam-square:hover
+{
+  color: #2a475e;
+  transition: 0.5s;
+}
+.wrapper .icons .fa-linkedin-square:hover
+{
+  color: #0e76a8;
+  transition: 0.5s;
+}
+.wrapper .icons .fa-envelope-square:hover
+{
+  color: #ff371d;
+  transition: 0.5s;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #000; 
+}
+
+/* Handle on hover */
+
+.dark-mode ::-webkit-scrollbar-thumb:hover {
+  background: #50d890;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #e84a5f;
+}
+.foot
+{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.foot .footsvg
+{
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+}
+.foot span
+{
+ 
+  bottom: 1px;
+  position: absolute;
+  font-size: 1em;
+  color: #000;
+  z-index: 10000;
+}
+.foot .footsvg svg{
+ z-index: 1;
+ width: 100%;
+}
+.foot .footsvg .dmsvg
+{
+  opacity: 0;
+  overflow: hidden;
+}
+.foot .footsvg .ndmsvg
+{
+  position: absolute;
+ 
+  z-index: 10;
+}
+.dark-mode .foot .footsvg .dmsvg
+{
+  opacity: 100%;
+}
+.dark-mode .foot .footsvg .ndmsvg
+{
+  display: none;
+
+}

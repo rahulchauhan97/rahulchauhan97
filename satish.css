@@ -1,0 +1,147 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+ 
+}
+.me
+{ 
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: max-content;
+  padding-bottom: 5%;
+}
+.me .about
+{
+  padding: 20px;
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  flex-basis: 100%;
+  z-index: 100;
+}
+.me .pic img
+{ 
+ 
+ position: relative;
+  border-radius: 90%;
+  padding-top: 10px;
+  padding: 15px;
+  z-index: 100;
+  
+}
+.me .dmpic img
+{
+ display: none;
+}
+.dark-mode .me .pic img
+{
+   display: none;
+}
+.dark-mode .me .dmpic img 
+{
+  display: inline-block;
+  position: relative;
+  border-radius: 90%;
+  padding-top: 10px;
+  padding: 15px;
+  z-index: 100;
+}
+
+.me .mebox
+{
+text-align: center;
+overflow: hidden;
+padding: 5%;
+font-size: 1.5em;
+z-index: 100;
+}
+.me .ndark
+{ 
+  position: absolute;
+  width:100%;
+  z-index: 1;
+  
+  transform: rotate(180deg);
+}
+.dark-mode .me .ndark{
+  display: none;
+}
+
+.me .dmsvg
+{
+  display: none;
+}
+.dark-mode .me .dmsvg{
+  display: block;
+  position: absolute;
+  width:100%;
+  z-index: 0;
+  transform: rotate(180deg);
+}
+
+.me .mebox .age
+{
+  text-align: center;
+overflow: hidden;
+padding: 3%;
+font-size: 1.5em;
+z-index: 100;
+}
+@media only screen and (max-width: 600px) {
+
+  .me
+  {
+    height: 100vh;
+    font-size: 0.75em;
+   text-align: left;
+   
+  }
+  .wrapper
+  {
+    height: 80vh;
+  }
+ 
+ }
+ .me .resume button
+  { background: black;
+    color: white;
+    width: 100px;
+    height: 45px;
+    outline: none;
+    border-color: #62affe;
+    border-radius: 10px;
+ }
+ .me .resume button:hover
+ {
+  background: #50d890;
+  color: black;
+  border-color: black;
+  transition: 0.5s;
+ }
+ .line
+ {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 1px;
+   background: #3a393948;
+ }
+ .line:hover
+ {
+   background: #50d890
+ }
+ .footsvg
+ {
+  position: absolute;
+  z-index: 0;
+ }
+ .dark-mode .line
+ {
+    background: #50d890;
+ }
